@@ -1,0 +1,171 @@
+<!doctype html>
+
+<!-- this is beginning of the html the browser will process -->
+<html>
+
+<!-- information used by the browser -->
+
+<head>
+
+    <meta charset="utf-8">
+
+    <!--
+            displayed anywhere the title is used
+            for the browser, search engines, etc.
+        -->
+    <title> inside out - monica romero </title>
+
+    <!--
+            used to display information about the 
+            page by search engine and other sites
+            looking at our page.
+        -->
+    <meta name="description" content="inside out is a class project we use to learn html." />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<!-- content displayed in the browser window -->
+
+<body>
+
+    <header>
+        <h1><a href="index.php">inside out - music</a></h1>
+        <h2>continuously falling foward into the light... </h2>
+        <nav>
+            <ul>
+                <li><a href="love.html">love</a>
+                    <ul>
+                        <li><a href="things.html">things</a>
+                            <ul>
+                                <li><a href="music.html">music</a></li>
+                                <li><a href="movies.html">movies</a></li>
+                                <li><a href="books.html">books</a></li>
+                                <li><a href="website.html">website</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="people.html">people</a>
+                            <ul>
+                                <li><a href="family.html">family</a></li>
+                                <li><a href="friends.html">friends</a></li>
+                                <li><a href="others.html">others</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="who.html">who</a>
+                    <ul>
+                        <li><a href="i.html">i</a>
+                            <ul>
+                                <li><a href="was then.html">was then</a></li>
+                                <li><a href="am now.html">am now</a></li>
+                                <li><a href="will be.html">will be</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="challenges.html">challenges</a>
+                    <ul>
+                        <li><a href="behind me.html">behind me</a></li>
+                        <li><a href="ahead of me.html">ahead of me</a></li>
+                    </ul>
+                </li>
+                <li><a href="you.html">you</a>
+                    <ul>
+                        <li><a href="profile.html">profile</a></li>
+                        <li><a href="settings.html">settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <section>
+
+        <div id="mainScreen">
+            <iframe id="movieFrame" width="640" height="360" src="https://www.youtube.com/embed/wFhs7WVvuXk" frameborder="0" gesture="media" allowfullscreen>
+            Your browser currently does not support iframes. Please contact the website administrator if you believe this is happening in error.
+            </iframe>
+        </div>
+    </section>
+    <section>
+        <div id="cardsWrapper">
+            <div class="card" onClick="changeVideo('wFhs7WVvuXk')">
+                <div class="cardImage" style="background-image: url(assets/images/imagine-dragons-thunder.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>Thunder - Imagine Dragons</h4>
+                    <div class="cardInfoText">
+                        "Thunder" is a song by American rock band Imagine Dragons. The song was released on April 27, 2017 through Interscope Records, as the second single from their third studio album, Evolve.[2] In August 2017, "Thunder" was number one on the Billboard & Clio Top TV Commercials chart.
+                    </div>
+                </div>
+            </div>
+            <div class="card" onClick="changeVideo('QG9cd521EOY')">
+                <div class="cardImage" style="background-image: url(assets/images/frenchmontana-unforgettable.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>Unforgettable - French Montana ft. Swae Lee</h4>
+                    <div class="cardInfoText">
+                        "Unforgettable" is a song by Moroccan-American rapper French Montana. It was released through Epic Records and Bad Boy Records on April 7, 2017.[2] The song features vocals from Swae Lee and was produced by Jaegen and 1Mind. The song peaked at number three on the US Billboard Hot 100, making it French Montana's first song as a lead artist to reach the top 10 of that chart and Swae Lee's first as a solo artist.
+                    </div>
+                </div>
+            </div>
+            <div class="card" onClick="changeVideo('KYF46J8oGo8')">
+                <div class="cardImage" style="background-image: url(assets/images/heavy%20dirty%20soul%20top.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>HeavyDirtySoul - Twenty One Pilots</h4>
+                    <div class="cardInfoText">
+                        "Heavydirtysoul" is a song written and recorded by American musical duo Twenty One Pilots. From their fourth studio album Blurryface, the song was released as a single on December 9, 2016.[4][5] The band uploaded an audio-only video of the song onto YouTube on May 17, 2015.
+                    </div>
+                </div>
+            </div>
+            <div class="card" onClick="changeVideo('ru0K8uYEZWw')">
+                <div class="cardImage" style="background-image: url(assets/images/Justin-Timberlake-Cant-Stop-The-Feeling.png);"></div>
+                <div class="cardInfo">
+                    <h4>Can't Stop The Feeling - Justin Timberlake</h4>
+                    <div class="cardInfoText">
+                        "Can't Stop the Feeling!" is a song recorded by American singer-songwriter Justin Timberlake for the soundtrack to the film Trolls (2016), for which he serves as the executive music producer. It was written and produced by Timberlake, Max Martin and Shellback. Musically, it is an uptempo disco-pop, soul-pop number with funk influences
+                    </div>
+                </div>
+            </div>
+            <div class="card" onClick="changeVideo('5gBeLN2Jkng')">
+                <div class="cardImage" style="background-image: url(assets/images/attention%20-%20charlie%20puth.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>Attention - Charlie Puth</h4>
+                    <div class="cardInfoText">
+                        "Attention" is a midtempo pop rock song with elements of 1980s soft-soul and funk. Commercially, the song has reached number one in places all over the world. Its music video was released on April 24, 2017.
+                    </div>
+                </div>
+            </div>
+            <div class="card" onClick="changeVideo('UxV_paz84Mw')">
+                <div class="cardImage" style="background-image: url(assets/images/the%20heart%20wants%20what%20it%20wants%20-%20selena%20gomez.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>The Heart Wants What It Wants - Selena Gomez</h4>
+                    <div class="cardInfoText">
+                        "The Heart Wants What It Wants" is a song by American singer Selena Gomez from her 2014 compilation album For You. It was released on November 6, 2014, through Hollywood Records.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="clear: both"></div>
+        
+    </section>
+    
+    
+    <footer>
+        <h4>this is the footer</h4>
+        <p>we place redundant information here</p>
+        <div id="footerTagLine">I am 7 inches left of normal</div>
+    </footer>
+    <script>
+          function changeVideo(vid){
+               document.getElementById('movieFrame').src = 'https://www.youtube.com/embed/'+vid;
+               document.getElementById('movieFrame').scrollIntoView({ 
+                    behavior: 'smooth' 
+               });
+          }
+     </script>
+    
+    
+    
+</body>
+
+</html>

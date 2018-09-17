@@ -1,0 +1,291 @@
+<!doctype html>
+
+<!-- this is beginning of the html the browser will process -->
+<html>
+
+<!-- information used by the browser -->
+
+<head>
+
+    <meta charset="utf-8">
+
+    <!--
+            displayed anywhere the title is used
+            for the browser, search engines, etc.
+        -->
+    <title> inside out - monica romero </title>
+
+    <!--
+            used to display information about the 
+            page by search engine and other sites
+            looking at our page.
+        -->
+    <meta name="description" content="inside out is a class project we use to learn html." />
+
+    <!-- Our global css used in every page -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <!-- Our book css is only used in the books page -->
+    <link rel="stylesheet" type="text/css" href="assets/css/books.css">
+
+</head>
+
+<!-- content displayed in the browser window -->
+
+<body>
+
+    <header>
+        <h1><a href="index.php">inside out - books</a></h1>
+        <h2>continuously falling foward into the light... </h2>
+        <nav>
+            <ul>
+                <li><a href="love.html">love</a>
+                    <ul>
+                        <li><a href="things.html">things</a>
+                            <ul>
+                                <li><a href="music.html">music</a></li>
+                                <li><a href="movies.html">movies</a></li>
+                                <li><a href="books.html">books</a></li>
+                                <li><a href="website.html">website</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="people.html">people</a>
+                            <ul>
+                                <li><a href="family.html">family</a></li>
+                                <li><a href="friends.html">friends</a></li>
+                                <li><a href="others.html">others</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="who.html">who</a>
+                    <ul>
+                        <li><a href="i.html">i</a>
+                            <ul>
+                                <li><a href="was then.html">was then</a></li>
+                                <li><a href="am now.html">am now</a></li>
+                                <li><a href="will be.html">will be</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="challenges.html">challenges</a>
+                    <ul>
+                        <li><a href="behind me.html">behind me</a></li>
+                        <li><a href="ahead of me.html">ahead of me</a></li>
+                    </ul>
+                </li>
+                <li><a href="you.html">you</a>
+                    <ul>
+                        <li><a href="profile.html">profile</a></li>
+                        <li><a href="settings.html">settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <section>
+
+        <!-- quote in the top of the page directly below the header element -->
+
+        <div class="container  divQuote">
+            <p class="pQuote">
+                “We believe in ordinary acts of bravery, in the courage that drives one person to stand up for another.”
+            </p>
+            <p class="pQuoteAuthor">
+                ― Veronica Roth, Divergent
+            </p>
+        </div>
+
+        <!-- beginning of our books listing -->
+        <div class="container">
+
+            <!-- start of Divergent by Veronica Roth -->
+            <div class="hover panel" onmouseout="javascript:this.className = 'hover panel';" onmouseover="javascript:this.className += ' flip';">
+
+                <div class='front'>
+                    <div class="frontTitle">
+                        Divergent
+                    </div>
+                    <div class="frontLogo veronica-roth bookBgImg"></div>
+                    <div class="frontLocation">
+                        Veronica Roth
+                    </div>
+                </div>
+
+                <div class="back">
+                    <div class="backTitle">
+                        Divergent by Roth
+                    </div>
+                    <div class="backParagraph">
+                        In a futuristic Chicago, society is divided into 5 factions. Abnegation the selfless, Dauntless the brave, Erudite the intelligent, Candor the honest, and Amity the peaceful. When all teenagers reach the age of 16, they must choose to either stay in their faction of birth, or transfer into another faction.
+                    </div>
+                    <div class="backGoTo">
+                        <a href="https://en.wikipedia.org/wiki/Divergent_(novel)" target="_blank" title="Divergent by Veronica Roth">Divergent by Roth →</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end of Divergent by Veronia Roth -->
+            
+
+            <!-- start of Cirque Du Freak by Darren Shan -->
+            <div class="hover panel" onmouseout="javascript:this.className = 'hover panel';" onmouseover="javascript:this.className += ' flip';">
+
+                <div class='front'>
+                    <div class="frontTitle">
+                        Cirque Du Freak
+                    </div>
+                    <div class="frontLogo darren-shan bookBgImg"></div>
+                    <div class="frontLocation">
+                        Darren Shan
+                    </div>
+                </div>
+
+                <div class="back">
+                    <div class="backTitle">
+                        Cirque Du Freak by Shan
+                    </div>
+                    <div class="backParagraph">
+                        The ringmaster is a vampire called Larten Crepsley, that has a lethal spider. ... Teenager Darren Shan meets a mysterious man at a freak show who turns out to be a vampire. After a series of events Darren must leave his normal life and go on the road with the Cirque du Freak and become a vampire.
+                    </div>
+                    <div class="backGoTo">
+                        <a href="http://cirquedufreak.wikia.com/wiki/Cirque_Du_Freak_(book)" target="_blank" title="Cirque Du Freak  by Darren Shan">Cirque Du Freak by Shan →</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end of Cirque Du Freak by Darren Shan -->
+            
+            
+            <!-- start of the chronicles of vladimir tod by Heather Brewer -->
+            <div class="hover panel" onmouseout="javascript:this.className = 'hover panel';" onmouseover="javascript:this.className += ' flip';">
+
+                <div class='front'>
+                    <div class="frontTitle">
+                        the Chronicles of Vladimir Tod
+                    </div>
+                    <div class="frontLogo heather-brewer bookBgImg"></div>
+                    <div class="frontLocation">
+                        Heather Brewer
+                    </div>
+                </div>
+
+                <div class="back">
+                    <div class="backTitle">
+                        the Chronicles of Vladimir Tod by Brewer
+                    </div>
+                    <div class="backParagraph">
+                        Junior high really sucks for thirteen-year-old Vladimir Tod. Bullies harass him, the principal is dogging him, and the girl he likes prefers his best friend. Oh, and Vlad has a secret: his mother was human, but his father was a vampire.
+                    </div>
+                    <div class="backGoTo">
+                        <a href="http://vladimirtod.wikia.com/wiki/Vladimir_Tod" target="_blank" title="the Chronicles of Vladimir Tod by Heather Brewer">the Chronicles of Vladimir Tod by Brewer →</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end of the chronicles of vladimir tod by Heather Brewer 
+
+
+
+            <!-- start of title by Christopher Paolini -->
+            <div class="hover panel" onmouseout="javascript:this.className = 'hover panel';" onmouseover="javascript:this.className += ' flip';">
+
+                <div class='front'>
+                    <div class="frontTitle">
+                        Eragon
+                    </div>
+                    <div class="frontLogo christopher-paolini bookBgImg"></div>
+                    <div class="frontLocation">
+                        Christopher Paolini
+                    </div>
+                </div>
+
+                <div class="back">
+                    <div class="backTitle">
+                        Eragon by Paolini
+                    </div>
+                    <div class="backParagraph">
+                        The 15 year old resident of Carvahall, Eragon, starts the book by finding a strange blue stone while traversing The Spine, a mountainous area outside his home. The world in which this novel takes place is known as Alagaësia, under the control of Galbatorix, a fallen Dragon Rider, now evil.
+                    </div>
+                    <div class="backGoTo">
+                        <a href="https://en.wikipedia.org/wiki/Eragon" target="_blank" title="Eragon by Christopher Paolini">Eragon by Paolini →</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end of Eragon by Christopher Paolini -->
+            
+            
+            
+            <!-- start of My Hero Academia by Kohei Horikoshi -->
+            <div class="hover panel" onmouseout="javascript:this.className = 'hover panel';" onmouseover="javascript:this.className += ' flip';">
+
+                <div class='front'>
+                    <div class="frontTitle">
+                        My Hero Academia
+                    </div>
+                    <div class="frontLogo boku-no-hero-academia bookBgImg"></div>
+                    <div class="frontLocation">
+                        Kohei Horikoshi
+                    </div>
+                </div>
+
+                <div class="back">
+                    <div class="backTitle">
+                        My Hero Academia by Horikoshi
+                    </div>
+                    <div class="backParagraph">
+                        The story follows Izuku Midoriya, a boy born without superpowers in a world where they are the norm, but who still dreams of becoming a superhero himself, and is scouted by the world's greatest hero who shares his powers with Izuku after recognizing his value and enrolls him in a high school for heroes in training.
+                    </div>
+                    <div class="backGoTo">
+                        <a href="http://bokunoheroacademia.wikia.com/wiki/Boku_no_Hero_Academia_Wiki" target="_blank" title="My Hero Academia by Kohei Horikoshi">My Hero Academia by Horikoshi →</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end of My Hero Academia by Kohei Horikoshi -->
+            
+            
+            <!-- start of Seraph of the End by Takaya Kagami -->
+            <div class="hover panel" onmouseout="javascript:this.className = 'hover panel';" onmouseover="javascript:this.className += ' flip';">
+
+                <div class='front'>
+                    <div class="frontTitle">
+                        Seraph of the End
+                    </div>
+                    <div class="frontLogo owari-no-seraph bookBgImg"></div>
+                    <div class="frontLocation">
+                        Takaya Kagami
+                    </div>
+                </div>
+
+                <div class="back">
+                    <div class="backTitle">
+                        Seraph of the End by Kagami
+                    </div>
+                    <div class="backParagraph">
+                       The series is set in a world where a virus has wiped out most of humanity, allowing vampires to enslave the rest of the human race. It tells the story of an orphaned boy named Yūichirō Hyakuya trying to rid the world of the vampires by joining the Japanese Imperial Demon Army.
+                    </div>
+                    <div class="backGoTo">
+                        <a href="https://en.wikipedia.org/wiki/Seraph_of_the_End" target="_blank" title="Seraph of the End by Takaya Kagami">Seraph of the End by Kagami →</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end of Seraph of the End by Takaya Kagami -->
+
+        </div>
+        <!-- ending of our books listing -->
+        
+    </section>
+    <footer>
+        <h4>this is the footer</h4>
+        <p>we place redundant information here</p>
+        <div id="footerTagLine">I am 7 inches left of normal</div>
+    </footer>
+
+</body>
+
+</html>
