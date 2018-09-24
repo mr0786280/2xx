@@ -16,8 +16,3 @@
 	require_once('include/footer.inc.php');
  
 ?>
-		
-	
-    
-
-
