@@ -5,29 +5,24 @@ $content = array(
           array(
                'pageName' => 'love',
                'pageLink' => 'love.php',
-               'pageContent' => 'This is the content for the love page.',
                'childPages' => array(
                     array(
                          'pageName' => 'things',
                          'pageLink' => 'things.html',
-                         'pageContent' => 'This is the content for the things page.',
                          'childPages' => array(
                               array(
                                    'pageName' => 'books',
                                    'pageLink' => 'books.html',
-                                   'pageContent' => 'This is the content for the books page.',
                                    'childPages' => array()
                               ),
                               array(
                                    'pageName' => 'music',
                                    'pageLink' => 'music.html',
-                                   'pageContent' => 'This is the content for the music page.',
                                    'childPages' => array()
                               ),
                               array(
                                    'pageName' => 'movies',
                                    'pageLink' => 'movies.html',
-                                   'pageContent' => 'This is the content for the movies page.',
                                    'childPages' => array()
                               ),
                               array(
@@ -41,24 +36,20 @@ $content = array(
                     array(
                          'pageName' => 'people',
                          'pageLink' => 'people.html',
-                         'pageContent' => 'This is the content for the people page.',
                          'childPages' => array(
                               array(
                                    'pageName' => 'family',
                                    'pageLink' => 'family.html',
-                                   'pageContent' => 'This is the content for the family page.',
                                    'childPages' => array()
                               ),
                               array(
                                    'pageName' => 'friends',
                                    'pageLink' => 'friends.html',
-                                   'pageContent' => 'This is the content for the friends page.',
                                    'childPages' => array()
                               ),
                               array(
                                    'pageName' => 'others',
                                    'pageLink' => 'others.html',
-                                   'pageContent' => 'This is the content for the others page.',
                                    'childPages' => array()
                               )
                          )
@@ -68,29 +59,24 @@ $content = array(
           array(
                'pageName' => 'who',
                'pageLink' => 'who.php',
-               'pageContent' => 'This is the content for the who page.',
                'childPages' => array(
                     array(
                          'pageName' => 'i',
                          'pageLink' => 'i.html',
-                         'pageContent' => 'This is the content for the i page.',
                          'childPages' => array(
                               array(
                                    'pageName' => 'was then',
                                    'pageLink' => 'was_then.html',
-                                   'pageContent' => 'This is the content for the was then page.',
                                    'childPages' => array()
                               ),
                               array(
                                    'pageName' => 'am now',
                                    'pageLink' => 'am_now.html',
-                                   'pageContent' => 'This is the content for the am now page.',
                                    'childPages' => array()
                               ),
                               array(
                                    'pageName' => 'will be',
                                    'pageLink' => 'will_be.html',
-                                   'pageContent' => 'This is the content for the will be page.',
                                    'childPages' => array()
                               )
                          )
@@ -100,24 +86,20 @@ $content = array(
           array(
                'pageName' => 'challenges',
                'pageLink' => 'challenges.php',
-               'pageContent' => 'This is the content for the challenges page.',
                'childPages' => array(
                     array(
                          'pageName' => 'behind me',
                          'pageLink' => 'behind_me.html',
-                         'pageContent' => 'This is the content for the behind me page.',
                          'childPages' => array()
                     ),
                     array(
                          'pageName' => 'on me',
                          'pageLink' => 'on_me.html',
-                         'pageContent' => 'This is the content for the on me page.',
-                         'childPages' => array()
+						'childPages' => array()
                     ),
                     array(
                          'pageName' => 'ahead of me',
                          'pageLink' => 'ahead_of_me.html',
-                         'pageContent' => 'This is the content for ahead of me page.',
                          'childPages' => array()
                     )
                )
@@ -125,18 +107,15 @@ $content = array(
           array(
                'pageName' => 'you',
                'pageLink' => 'you.php',
-               'pageContent' => 'This is the content for the you page.',
                'childPages' => array(
                     array(
                          'pageName' => 'profile',
                          'pageLink' => 'profile.html',
-                         'pageContent' => 'This is the content for the profile page.',
                          'childPages' => array()
                     ),
                     array(
                          'pageName' => 'settings',
                          'pageLink' => 'settings.html',
-                         'pageContent' => 'This is the content for the settings page.',
                          'childPages' => array()
                     )
                )
