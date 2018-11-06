@@ -6,6 +6,8 @@
 	
         <div id="footerTagLine">I am 7 inches left of normal</div>
 	
+		<div class="copyright">iop project Version <?php echo VERSION; ?> | &copy; 1997 - <?php echo date ('Y'); ?> Monica Romero </div>
+	
     </footer>
 </body>
 
