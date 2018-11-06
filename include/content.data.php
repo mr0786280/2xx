@@ -4,7 +4,7 @@ $content = array(
      'pages' => array(
           array(
                'pageName' => 'love',
-               'pageLink' => 'love.php',
+               'pageLink' => 'love.html',
                'childPages' => array(
                     array(
                          'pageName' => 'things',
@@ -58,7 +58,7 @@ $content = array(
           ),
           array(
                'pageName' => 'who',
-               'pageLink' => 'who.php',
+               'pageLink' => 'who.html',
                'childPages' => array(
                     array(
                          'pageName' => 'i',
@@ -85,7 +85,7 @@ $content = array(
           ),
           array(
                'pageName' => 'challenges',
-               'pageLink' => 'challenges.php',
+               'pageLink' => 'challenges.html',
                'childPages' => array(
                     array(
                          'pageName' => 'behind me',
@@ -106,7 +106,7 @@ $content = array(
           ),
           array(
                'pageName' => 'you',
-               'pageLink' => 'you.php',
+               'pageLink' => 'you.html',
                'childPages' => array(
                     array(
                          'pageName' => 'profile',
