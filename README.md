@@ -42,6 +42,7 @@ Version 203.0
 	- Added redirect to force a secure connection in the header.inc.php.
 	
 Version 204.0
+
 	- replaced html in the header.inc and footer.inc.php files with responsive bootstrap html
     - updated the menuBuilder() function bypass the home page when building the menu
 	- added the getPages function to the functions.inc.php file
